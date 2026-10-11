@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+<title id="title">CYDM logo</title><desc id="desc">Three people standing together above green pages, surrounded by a navy and gold circular border.</desc>
+<circle cx="300" cy="300" r="270" fill="#12304a" stroke="#e9b949" stroke-width="18"/>
+<circle cx="300" cy="205" r="58" fill="#e9b949"/>
+<circle cx="190" cy="250" r="40" fill="#ffffff"/><circle cx="410" cy="250" r="40" fill="#ffffff"/>
+<path d="M210 365 Q300 255 390 365" fill="none" stroke="#ffffff" stroke-width="38" stroke-linecap="round"/>
+<path d="M105 380 Q300 520 495 380 L455 438 Q300 540 145 438Z" fill="#18794e"/>
+<path d="M120 130 L160 100 M480 130 L440 100" stroke="#e9b949" stroke-width="18" stroke-linecap="round"/>
+<text x="300" y="480" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="58" fill="#ffffff">CYDM</text>
+<text x="300" y="520" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600" font-size="20" letter-spacing="2" fill="#e9b949">COMMUNITY • SERVICE • PROGRESS</text>
+</svg>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Community Youth Development Movement — independent, non-partisan community development in Damaturu, Yobe State, Nigeria.">
+<title>CYDM | Community Youth Development Movement</title>
+<style>
+:root{--navy:#12304a;--green:#18794e;--gold:#e9b949;--cream:#f7f8f4;--ink:#1b2730;--muted:#62717d;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+header{background:var(--white);border-bottom:1px solid #e5e9e5;position:sticky;top:0;z-index:5}
+.nav{max-width:1120px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--navy);text-decoration:none;font-weight:800}
+.brand svg{width:48px;height:48px;flex:none}.brand small{display:block;font-size:10px;letter-spacing:1.2px;color:var(--green)}
+nav{display:flex;gap:20px;flex-wrap:wrap}nav a{color:var(--navy);text-decoration:none;font-weight:700;font-size:14px}nav a:hover{color:var(--green)}
+.hero{background:linear-gradient(120deg,#102e47 0%,#185b47 100%);color:white;padding:82px 22px 76px}
+.hero-inner{max-width:1120px;margin:auto;display:grid;grid-template-columns:1.35fr .65fr;gap:40px;align-items:center}
+.eyebrow{color:#f5d36d;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:800}
+h1{font-size:clamp(36px,5vw,58px);line-height:1.08;margin:14px 0 20px;max-width:750px}
+.hero p{font-size:18px;max-width:690px;color:#eaf2ee}
+.btn{display:inline-block;border-radius:7px;padding:13px 19px;font-weight:800;text-decoration:none;margin:10px 10px 0 0}
+.btn-gold{background:var(--gold);color:#172a36}.btn-outline{border:1px solid #dbe8e0;color:white}
+.hero-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);padding:26px;border-radius:18px;text-align:center}
+.hero-card svg{width:145px;height:145px;max-width:100%}.hero-card h2{font-size:20px;margin:10px 0 3px}.hero-card p{font-size:14px;margin:0}
+section{padding:64px 22px}.container{max-width:1120px;margin:auto}
+.section-head{text-align:center;max-width:760px;margin:0 auto 34px}.section-head h2{color:var(--navy);font-size:32px;margin:0 0 10px}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:white;border:1px solid #e4e9e5;border-radius:13px;padding:23px;box-shadow:0 8px 22px rgba(18,48,74,.04)}
+.card .icon{font-size:28px}.card h3{color:var(--navy);margin:9px 0}.card p{color:var(--muted);font-size:14px;margin:0}
+.about{background:#edf3ee}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start}.about h2{color:var(--navy);font-size:32px;margin-top:0}.check{padding-left:0;list-style:none}.check li{margin:10px 0}.check li:before{content:"✓";color:var(--green);font-weight:900;margin-right:10px}
+.join{background:white}.form-wrap{max-width:800px;margin:auto;background:var(--cream);padding:30px;border:1px solid #e0e8e0;border-radius:16px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px}label{display:block;font-weight:700;font-size:14px;color:var(--navy)}input,select,textarea{width:100%;padding:12px;margin-top:6px;border:1px solid #cbd6d0;border-radius:7px;background:white;font:inherit}textarea{min-height:100px;resize:vertical}.full{grid-column:1/-1}.consent{display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--muted)}.consent input{width:auto;margin-top:5px}.submit{border:0;background:var(--green);color:white;padding:14px 20px;border-radius:7px;font-size:16px;font-weight:800;cursor:pointer}.note{font-size:12px;color:var(--muted)}
+.contact{background:var(--navy);color:white}.contact h2{font-size:30px;margin-top:0}.contact p{color:#dce7e1}.contact a{color:#f5d36d}
+footer{background:#0b2234;color:#cbd7df;padding:22px;text-align:center;font-size:13px}
+@media(max-width:850px){.hero-inner,.about-grid{grid-template-columns:1fr}.hero-card{max-width:320px}.grid{grid-template-columns:repeat(2,1fr)}nav{gap:10px}}
+@media(max-width:540px){.nav{align-items:flex-start;flex-direction:column}.grid,form{grid-template-columns:1fr}.full{grid-column:auto}.hero{padding-top:55px}section{padding:48px 18px}.form-wrap{padding:20px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="brand" href="#home" aria-label="CYDM home">
+      <svg viewBox="0 0 120 120" role="img" aria-label="CYDM emblem">
+        <circle cx="60" cy="60" r="55" fill="#12304a" stroke="#e9b949" stroke-width="4"/>
+        <path d="M22 73 Q60 103 98 73 L91 91 Q60 112 29 91Z" fill="#18794e"/>
+        <circle cx="60" cy="42" r="12" fill="#e9b949"/>
+        <circle cx="35" cy="52" r="8" fill="#fff"/><circle cx="85" cy="52" r="8" fill="#fff"/>
+        <path d="M42 72 Q60 52 78 72" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+        <path d="M25 26 L35 17 M95 26 L85 17" stroke="#e9b949" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+      <span>CYDM<small>COMMUNITY • SERVICE • PROGRESS</small></span>
+    </a>
+    <nav aria-label="Main navigation"><a href="#about">About</a><a href="#focus">Our Focus</a><a href="#join">Join CYDM</a><a href="#contact">Contact</a></nav>
+  </div>
+</header>
+<main id="home">
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">Damaturu LGA · Yobe State · Nigeria</div>
+      <h1>Young people. Strong communities. Shared progress.</h1>
+      <p>Community Youth Development Movement (CYDM) is a proposed independent, non-partisan community organisation working towards education, peace, good governance and practical community development.</p>
+      <a class="btn btn-gold" href="#join">Become a member</a><a class="btn btn-outline" href="#about">Learn about CYDM</a>
+    </div>
+    <div class="hero-card">
+      <svg viewBox="0 0 120 120" role="img" aria-label="CYDM emblem">
+        <circle cx="60" cy="60" r="55" fill="#12304a" stroke="#e9b949" stroke-width="4"/>
+        <path d="M22 73 Q60 103 98 73 L91 91 Q60 112 29 91Z" fill="#18794e"/>
+        <circle cx="60" cy="42" r="12" fill="#e9b949"/><circle cx="35" cy="52" r="8" fill="#fff"/><circle cx="85" cy="52" r="8" fill="#fff"/>
+        <path d="M42 72 Q60 52 78 72" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+        <path d="M25 26 L35 17 M95 26 L85 17" stroke="#e9b949" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+      <h2>Community Youth Development Movement</h2>
+      <p>Independent • Non-partisan • Community-led</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container about-grid">
+    <div><div class="eyebrow" style="color:#18794e">Who we are</div><h2>Progress begins when communities work together.</h2><p>CYDM aims to bring residents together to identify local needs, support responsible civic participation and build practical community initiatives. Membership is intended to be open to people of all ages, with special emphasis on youth development.</p></div>
+    <div class="card"><h3>Our vision</h3><p>To build a peaceful, united and progressive community where citizens, particularly young people, participate actively in good governance and sustainable development.</p><h3>Our mission</h3><p>To empower young people and community members through education, leadership development, peaceful engagement, accountability and community service.</p></div>
+  </div>
+</section>
+
+<section id="focus">
+  <div class="container">
+    <div class="section-head"><h2>What we work towards</h2><p>Four connected priorities to help communities thrive.</p></div>
+    <div class="grid">
+      <div class="card"><div class="icon">📚</div><h3>Education & Youth</h3><p>Encouraging learning, mentorship, leadership skills and opportunities for young people.</p></div>
+      <div class="card"><div class="icon">🤝</div><h3>Peace & Unity</h3><p>Supporting dialogue, mutual understanding and peaceful cooperation across communities.</p></div>
+      <div class="card"><div class="icon">⚖️</div><h3>Good Governance</h3><p>Promoting civic education, transparency, accountability and constructive public dialogue.</p></div>
+      <div class="card"><div class="icon">🌱</div><h3>Community Action</h3><p>Organising volunteers around local needs, environmental care and practical service projects.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="container about-grid">
+    <div><h2>Our guiding principles</h2><p>CYDM intends to remain independent of political parties and to serve the community through lawful, peaceful and accountable activities.</p></div>
+    <ul class="check"><li>Integrity and transparency</li><li>Respect and inclusion</li><li>Peaceful civic participation</li><li>Responsible use of funds</li><li>Democratic and accountable leadership</li></ul>
+  </div>
+</section>
+
+<section class="join" id="join">
+  <div class="container">
+    <div class="section-head"><h2>Join CYDM</h2><p>Interested in contributing to community development in Damaturu? Complete the membership form below.</p></div>
+    <div class="form-wrap">
+      <!-- Netlify Forms: submissions are stored in the Netlify dashboard after this site is deployed to Netlify. -->
+      <form name="cydm-membership" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+        <input type="hidden" name="form-name" value="cydm-membership">
+        <p hidden><label>Do not fill this out: <input name="bot-field"></label></p>
+        <div><label for="fullName">Full name *</label><input id="fullName" name="full_name" required autocomplete="name"></div>
+        <div><label for="dob">Date of birth *</label><input id="dob" name="date_of_birth" type="date" required></div>
+        <div><label for="phone">Phone number *</label><input id="phone" name="phone" type="tel" required autocomplete="tel" placeholder="e.g. 080..."></div>
+        <div><label for="email">Email (optional)</label><input id="email" name="email" type="email" autocomplete="email"></div>
+        <div><label for="ward">Community / Ward *</label><input id="ward" name="community_ward" required></div>
+        <div><label for="lga">Local Government Area *</label><input id="lga" name="lga" value="Damaturu" required></div>
+        <div><label for="category">Membership category *</label><select id="category" name="membership_category" required><option value="">Choose one</option><option>Founding member</option><option>Ordinary member</option><option>Volunteer member</option></select></div>
+        <div><label for="interest">Main area of interest *</label><select id="interest" name="main_interest" required><option value="">Choose one</option><option>Education and youth development</option><option>Good governance and accountability</option><option>Peacebuilding and unity</option><option>Community development</option><option>Environmental cleanliness</option><option>Health awareness</option></select></div>
+        <div class="full"><label for="reason">Why would you like to join? (optional)</label><textarea id="reason" name="reason_for_joining" placeholder="Tell us briefly how you would like to contribute."></textarea></div>
+        <label class="consent full"><input type="checkbox" name="consent" value="I agree" required><span>I confirm that the information is accurate and consent to CYDM using it to review my membership application and contact me about it. *</span></label>
+        <div class="full"><button class="submit" type="submit">Submit membership application</button><p class="note">Please provide accurate details. Membership applications are subject to review. CYDM is currently a proposed organisation and is not yet registered. Do not submit sensitive personal information.</p></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <h2>Let's build community progress together.</h2>
+    <p><strong>Location:</strong> Shagari Low Cost, Damaturu LGA, Yobe State, Nigeria</p>
+    <p><strong>Founder / Initiator:</strong> Adam Kachalla Talba</p>
+    <p><strong>Contact:</strong> Add an official CYDM phone number and email address here before publishing.</p>
+    <p class="note" style="color:#cbd7df">CYDM is proposed and not yet registered. This website must not be presented as evidence of legal registration.</p>
+  </div>
+</section>
+</main>
+<footer>© <span id="year"></span> Community Youth Development Movement (CYDM). Community • Service • Progress.</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
